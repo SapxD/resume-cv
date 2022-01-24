@@ -12,14 +12,14 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Padmalochan Sahoo</h2>
-        <p><a href="mailto:padmasahoo17@gmail.com">padmasahoo17@gmail.com</a></p>
+        <h2>Sachin Sadashiv</h2>
+        <p><a href="mailto:sapxd1331@gmail.com">sapxd1331@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p align="justify">Hi, I&apos;m Padmalochan. I like building things.
+      <p align="justify">Hi, I&apos;m Sachin. I like building things.
         Accomplished Software Developer with 2 years of experience in development of
         applications. Excels in every stage of the life cycle of software development,
         including design creation, coding, debugging, testing and maintenance. Expert
@@ -37,7 +37,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Padmalochan Sahoo</p>
+      <p className="copyright">&copy; Sachin Sadashiv</p>
     </section>
   </section>
 );
