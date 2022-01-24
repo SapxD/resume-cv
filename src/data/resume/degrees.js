@@ -2,7 +2,7 @@ const degrees = [
   {
     school: 'City Engineering College',
     degree: 'Bachelor of Computer Science and Engineering',
-    link: 'https://www.CityEngineeringCollege.ac.in',
+    link: 'https://CityEngineeringCollege.ac.in',
     year: 2020,
   },
   {
