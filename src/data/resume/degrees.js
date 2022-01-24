@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Silicon Institute Of Technology',
-    degree: 'B.S. Electronics Engineering, Computer Engineering',
-    link: 'https://www.silicon.ac.in',
-    year: 2021,
+    school: 'City Engineering College',
+    degree: 'Bachelor of Computer Science and Engineering',
+    link: 'https://www.CityEngineeringCollege.ac.in',
+    year: 2020,
   },
   {
-    school: 'Kendriya Vidyalaya',
+    school: 'BNM Pre-University College',
     degree: '12th Science With Computer Science',
-    link: 'https://kvsangathan.nic.in',
-    year: 2017,
+    link: 'https://Bnmit.org',
+    year: 2016,
   },
 ];
 
