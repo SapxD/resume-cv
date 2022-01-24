@@ -1,11 +1,11 @@
 {
   "name": "resume-cv",
   "version": "3.0.1",
-  "homepage": "http://rintukv4.github.io/resume-cv",
+  "homepage": "http://SapxD.github.io/resume-cv",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rintukv4/resume-cv.git"
+    "url": "https://github.com/SapxD/resume-cv.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
