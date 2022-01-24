@@ -10,37 +10,37 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/rintukv4',
+    link: 'https://github.com/SapxD',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/padmalochan.sahoo.731135/',
+    link: 'https://www.facebook.com/sachinn/',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'https://www.instagram.com/__.paddy._/',
+    link: 'https://www.instagram.com/sachinn/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://linkedin.com/in/padmalochan-sahoo/',
+    link: 'https://linkedin.com/in/sachinn/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://angel.co/u/padmalochan-sahoo',
+    link: 'https://angel.co/u/sachinn',
     label: 'Angel List',
     icon: faAngellist,
   },
   {
-    link: 'https://twitter.com/rintukv4',
+    link: 'https://twitter.com/sachinn',
     label: 'Twitter',
     icon: faTwitter,
   },
   {
-    link: 'mailto:padmasahoo17@gmail.com',
+    link: 'mailto:sapxd1331@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
