@@ -14,7 +14,7 @@ const line = '/* write, compile, run, repeat */';
 
 const Index = () => (
   <Main
-    description={"Padmalochan Sahoo's personal website. New York based Stanford ICME graduate, "
+    description={"Sachin Sadashiv's personal website. New York based Stanford ICME graduate, "
     + 'co-founder and CTO of Arthena, and YC Alumni.'}
   >
     <article className="post" id="index">
