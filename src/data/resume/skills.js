@@ -13,19 +13,24 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
+    title: 'Postgresql',
+    competency: 3,
+    category: ['Web Development', 'Databases', 'Languages'],
+  },
+  {
     title: 'React',
     competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 4,
     category: ['Tools', 'Languages'],
   },
   {
     title: 'Amazon Web Services',
     competency: 3,
-    category: ['Web Development', 'Tools'],
+    category: ['Web Development', 'Tools', 'Cloud', 'CI/CD'],
   },
   {
     title: 'MySQL/SQL',
@@ -39,12 +44,12 @@ const skills = [
   },
   {
     title: 'Git',
-    competency: 3,
-    category: ['Tools'],
+    competency: 5,
+    category: ['Tools', 'Cloud', 'CI/CD'],
   },
   {
     title: 'Android Native',
-    competency: 4.5,
+    competency: 3,
     category: ['Android Development'],
   },
   {
@@ -58,9 +63,79 @@ const skills = [
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
-    title: 'Tensorflow + Keras',
+    title: 'Shell Scripting',
+    competency: 4,
+    category: ['Languages', 'CI/CD'],
+  },
+  {
+    title: 'Go',
+    competency: 5,
+    category: ['Languages', 'Cloud'],
+  },
+  {
+    title: 'Docker',
+    competency: 5,
+    category: ['Tools', 'Cloud', 'CI/CD'],
+  },
+  {
+    title: 'Docker Swarm',
+    competency: 5,
+    category: ['Tools', 'Cloud', 'CI/CD'],
+  },
+  {
+    title: 'Kubernetes',
+    competency: 5,
+    category: ['Tools', 'Cloud', 'CI/CD'],
+  },
+  {
+    title: 'Jenkins',
+    competency: 3,
+    category: ['Tools', 'Cloud', 'CI/CD'],
+  },
+  {
+    title: 'Terraform',
+    competency: 3,
+    category: ['Tools', 'Cloud'],
+  },
+  {
+    title: 'Slack',
+    competency: 5,
+    category: ['Collaboration and Communication'],
+  },
+  {
+    title: 'Microsoft Teams',
+    competency: 5,
+    category: ['Collaboration and Communication'],
+  },
+  {
+    title: 'Jira',
+    competency: 5,
+    category: ['Collaboration and Communication'],
+  },
+  {
+    title: 'Confluence',
+    competency: 5,
+    category: ['Collaboration and Communication'],
+  },
+  {
+    title: 'Ansible',
+    competency: 4,
+    category: ['Tools', 'Cloud'],
+  },
+  {
+    title: 'Chef',
     competency: 2,
-    category: ['Data Science', 'Python'],
+    category: ['Tools', 'Cloud'],
+  },
+  {
+    title: 'Puppet',
+    competency: 2,
+    category: ['Tools', 'Cloud'],
+  },
+  {
+    title: 'Maven',
+    competency: 3,
+    category: ['Tools', 'Cloud', 'CI/CD'],
   },
   {
     title: 'Jupyter',
@@ -78,13 +153,43 @@ const skills = [
     category: ['Languages', 'Python'],
   },
   {
-    title: 'C++',
-    competency: 2,
+    title: 'Java',
+    competency: 3.5,
     category: ['Languages'],
   },
   {
+    title: 'C',
+    competency: 5,
+    category: ['Languages'],
+  },
+  {
+    title: 'Unix/Linux',
+    competency: 5,
+    category: ['Tools', 'Pentesting'],
+  },
+  {
+    title: 'C++',
+    competency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'Burp Suite',
+    competency: 3,
+    category: ['Pentesting', 'Tools'],
+  },
+  {
+    title: 'Metasploit',
+    competency: 3,
+    category: ['Pentesting', 'Tools'],
+  },
+  {
+    title: 'Powershell',
+    competency: 3,
+    category: ['Tools', 'Pentesting'],
+  },
+  {
     title: 'PHP',
-    competency: 4.5,
+    competency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -131,10 +236,12 @@ const colors = [
 ];
 
 const categories = [
-  ...new Set(skills.flatMap(({ category }) => category)),
-].sort().map((category, index) => ({
-  name: category,
-  color: colors[index],
-}));
+  ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
+]
+  .sort()
+  .map((category, index) => ({
+    name: category,
+    color: colors[index],
+  }));
 
 export { categories, skills };

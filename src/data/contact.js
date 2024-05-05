@@ -15,17 +15,17 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/sachinn/',
+    link: 'https://www.facebook.com/saacchhinn/',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'https://www.instagram.com/sachinn/',
+    link: 'https://www.instagram.com/saacchhin/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://linkedin.com/in/sachinn/',
+    link: 'https://www.linkedin.com/in/sachin-sadashiv-22241017b/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
@@ -35,7 +35,7 @@ const data = [
     icon: faAngellist,
   },
   {
-    link: 'https://twitter.com/sachinn',
+    link: 'https://twitter.com/Saacchhin1331',
     label: 'Twitter',
     icon: faTwitter,
   },

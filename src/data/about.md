@@ -1,38 +1,28 @@
 
 # Intro
 
-I am particularly interested in projects that touch health and safety, imaging, social impact, and aerospace. If you think I can be helpful to you or would like to meet me, please feel free to get in touch.
+Energetic Software Developer with over 3 years of experience in cloud computing, site reliability engineering, developing and
+optimizing high-performance cloud systems. Known for proactive problem-solving, effective communication and collaborative
+teamwork. Looking forward to challenging and exciting opportunity.
 
 # Currently
 
-I have been actively looking for work. I’m looking for an opportunity to develop my skills in Application Development and Project Management further, like I was doing in my previous role. Learning New Technologies like [Android Native](https://developer.android.com/studio), [Node.js](https://nodejs.org/en/), [Internet Of Things](https://en.wikipedia.org/wiki/Internet_of_things), and newbie to [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning).
+I'm actively seeking opportunities to enhance my skills in cloud computing, with a specific focus on leveraging tools for application development and project management, as I did in my previous role. I'm keen on exploring domains such as AI, Blockchain, and cybersecurity within the cloud ecosystem.
 
 
-# I like
+# Strengths
 
-- Capturing Your Beautiful Moments
-- Filming Your Best Memories
-- Travelling
-- Winter
-- Listening To Music
-
-
-# I dream of
-
-- Always Finding Inspiration.
-- Enabling a Brighter Future.
-- Doing Better.
+- Technical Proficiency
+- Problem-Solving Abilities
+- Communication and Collaboration
+- Adaptability and Learning Agility
+- Leadership and Team Management
 
 
-# Websites from people I admire
+# Awards and Achievements
 
-
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-
-
-
+- Secured First place in the TCS Global Slamdunk hackathon (Jan - 2023)
+- Recognised as TCS Contextual Master (Feb - 2023)
+- Secured third position in unit level hackathon ( July - 2023)
+- IBM India Software Labs File and Block Storage Star ( Apr - 2022)
+- Various Appreciations and Recognition over the years
