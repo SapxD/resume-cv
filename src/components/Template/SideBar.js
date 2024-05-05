@@ -12,21 +12,18 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Sachin Sadashiv</h2>
-        <p><a href="mailto:sapxd1331@gmail.com">sapxd1331@gmail.com</a></p>
+        <h2>Michael D&apos;Angelo</h2>
+        <p><a href="mailto:sachin.sadashivsap@gmail.com">sachin.sadashivsap@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p align="justify">Hi, I&apos;m Sachin. I like building things.
-        Accomplished Software Developer with 2 years of experience in development of
-        applications. Excels in every stage of the life cycle of software development,
-        including design creation, coding, debugging, testing and maintenance. Expert
-        in devising innovative and tailored solutions to assist businesses achieve their
-        goals in avariety of industries.Advanced skills and knowledge of leading
-        programming tools with a strong background in mathematics, algorithms, and
-        data-processing logic.
+      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
+        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
+        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
+        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
+        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +34,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Sachin Sadashiv</p>
+      <p className="copyright">&copy; Sachin Sadashiv <Link to="/">sachinsadashiv.netlify.app</Link>.</p>
     </section>
   </section>
 );
